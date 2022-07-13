@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::apiResource('dishes', \App\Http\Controllers\DishController::class);
+Route::apiResource('kinds', \App\Http\Controllers\KindController::class);

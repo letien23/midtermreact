@@ -29,7 +29,7 @@
 </nav>
 
 <div class="container">
-<h3>Xin chào đến với nhà hàng LVT</h3>
+  <h3>Xin chào đến với nhà hàng LVT</h3>
   <p>Chúc quý khách hàng thưởng thức những món ăn ngon</p>
     @if(Session::has('success'))
     <div class="alert alert-success">
@@ -108,8 +108,6 @@
             </div>
         </a>
         </div>
-        
-        
         @endif
         @endforeach
         
